@@ -6,7 +6,7 @@ LXI H, 8051
 LOOP2: MOV A, M  
 INX H           
 CMP M           
-JNC LOOP1         
+JC LOOP1         
 MOV B, M      
 MOV M, A        
 DCX H            
